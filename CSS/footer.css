@@ -167,5 +167,13 @@ color: #808080;
 @media screen and (max-width : 1024px) {
    .footer-logo img{
     width: 320px;
+   }
+   .news-letter label{
+    font-size: 14px;
    }     
+   .news-letter input{
+   width: 180px;
+   height:30px;
+}
+
 }
