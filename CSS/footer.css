@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #EDEDED;
+}
+.footer-top-main{
+    background: linear-gradient(180deg, #F8F6F7 0%, #EDEDED 100%);
+    box-shadow: 0px -4px 10px 0px #00000026;
+}
+.footer-top {
+    padding: 0 30px;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 400px;
+    height: auto;
+}
+
+.footer-social-icon {
+    font-size: 40px;
+    color: #4D85B9;
+}
+
+.footer-social-icon:hover {
+    color: #B61E1F;
+    transition: color 0.3s ease;
+}
+
+.news-letter label {
+    font-weight: 400;
+    color: #808080;
+    padding: 5px;
+}
+
+.news-letter input {
+    width: 300px;
+    border-radius: 50px;
+    padding: 10px;
+    color: #808080;
+    font-weight: 400;
+    border: 1px solid #bcbaba;
+    outline: none;
+    background-color: white;
+}
+
+.news-letter button {
+    border-radius: 20px;
+    padding: .6rem;
+    width: 100px;
+    background-color: #4D85B9;
+    color: #F8F6F7;
+    border: #F8F6F7;
+}
+
+.news-letter button:hover {
+    background-color: #B61E1F;
+}
+
+.footer-links {
+    padding: 0 30px;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background: #EDEDED;
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quick-links p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #004487;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #808080;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-address {
+    display: flex;
+    list-style: none;
+    width: 200px;
+    gap: 10px;
+}
+
+.footer-address i {
+    color: #004487;
+}
+
+.footer-ship-logo {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-ship-logo img {
+    width: 60px;
+    height: 20px;
+}
+
+.footer-ship-logo-2 {
+    width: 70px;
+    height: 20px;
+    padding-left: 8px;
+}
+
+.payment-logo {
+    padding: 0 30px;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EDEDED;
+    border-top: 1px solid #808080;
+    margin-top: 10px;
+}
+
+.payment-logo h3 {
+    color: #004487;
+}
+
+.payment-logo img {
+    width: 90px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.western-payemnt-img {
+    width: 100px !important;
+    height: 80px !important;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+.copyright a{
+text-decoration: none;
+color: #808080;
+font-size: 12px;
+}
+.copyright p{
+font-size: 12px;
+color: #808080;
+}
+
+/* Media Query */
+@media screen and (max-width : 1024px) {
+   .footer-logo img{
+    width: 320px;
+   }     
+}
