@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eeeeee;
+}
+.header {
+    width: 100%;
+    height: auto;
+}
+
+.h-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.h-input {
+    position: relative;
+}
+
+.h-input input[type="text"] {
+    height: 35px;
+    width: 350px;
+    border-radius: 50px;
+}
+
+.h-input img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px; /* Icon ko input ke right side par exact 0 position par rakhe */
+    width: 20px;
+}
+
+.h-input input {
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid #b9b9b9;
+    padding: 0 15px;
+    outline: none;
+}
+
+.h-register,
+.h-cart {
+    display: flex;
+    align-items: center;
+}
+
+.register-here p,
+.register-here a {
+    margin-right: 10px; /* Links aur text ke beech ka spacing */
+}
+.h-register-img img{
+    width: 40px;
+}
+
+.h-register-img,
+.h-cart-img {
+    margin-right: 10px; /* Icon aur text ke beech ka spacing */
+}
+.h-cart-img img{
+    width: 40px;
+}
+.register-here p:last-child {
+    color: red;
+}
