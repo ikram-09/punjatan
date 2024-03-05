@@ -5,9 +5,11 @@
     text-decoration: none;
     list-style: none;
 }
-body{
+
+body {
     background-color: #eeeeee;
 }
+
 .header {
     width: 100%;
     height: 8rem;
@@ -25,7 +27,7 @@ body{
     width: 100%;
 }
 
-.main-logo{
+.main-logo {
     max-width: 450px;
     width: 100%;
     transition: all ease 0.9s;
@@ -34,11 +36,13 @@ body{
 .h-input {
     position: relative;
 }
+
 .h-input input[type="text"] {
     height: 35px;
     width: 350px;
     border-radius: 50px;
 }
+
 .h-input img {
     position: absolute;
     top: 50%;
@@ -53,6 +57,7 @@ body{
     border: 1px solid #b9b9b9;
     padding: 0 15px;
 }
+
 #open-menu-btn {
     font-size: 35px;
     color: #fff;
@@ -64,7 +69,7 @@ body{
 
 }
 
-.start-here{
+.start-here {
     display: flex;
 }
 
@@ -79,7 +84,8 @@ body{
     margin-right: 10px;
     outline: none;
 }
-.h-register-img img{
+
+.h-register-img img {
     width: 35px;
 }
 
@@ -87,111 +93,166 @@ body{
 .h-cart-img {
     margin-right: 10px;
 }
-.h-cart-img img{
+
+.h-cart-img img {
     width: 35px;
 }
+
 .register-here p:last-child {
     color: red;
 }
 
-.h-btm-container{
+.h-btm-container {
     box-sizing: border-box;
     box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.25);
     background-color: #004487;
 }
-.h-btm-container .nav-list{
+
+.h-btm-container .nav-list {
     display: flex;
     align-items: center;
     justify-content: center;
-     width: 100%;
+    width: 100%;
     height: 60px;
-     gap: 4%;
+    gap: 4%;
 }
-.h-btm-container a{
+
+.h-btm-container a {
     text-decoration: none;
     color: #fff;
 }
-.h-btm-container a:hover{
+
+.h-btm-container a:hover {
     border-bottom: 1px solid #fff;
 }
-@media (max-width: 1190px){
+
+.res-input {
+    display: none;
+}
+
+
+@media (max-width: 1190px) {
     .main-logo {
         width: 400px;
     }
+
     .h-input input[type="text"] {
         height: 35px;
         width: 300px;
         border-radius: 50px;
     }
+
     .h-input img {
         width: 17px;
     }
+
     .h-cart-img img {
         width: 30px;
     }
+
     .h-register-img img {
         width: 30px;
     }
 }
-@media (max-width: 1000px){
+
+@media (max-width: 1000px) {
     .main-logo {
         width: 300px;
     }
+
     .h-btm-container a {
         font-size: 14px;
     }
 }
-@media (max-width: 930px){
+
+@media (max-width: 930px) {
     .register-here p, .register-here a {
         margin-right: 10px;
         font-size: 12px;
     }
+
     .h-input input[type="text"] {
         height: 30px;
         width: 215px;
     }
+
     .h-cart-img img {
         width: 26px;
     }
+
     .h-register-img img {
         width: 26px;
-    }   
+    }
 }
-@media (max-width: 768px){
-    .h-input{
+
+@media (max-width: 768px) {
+    /* .h-btm-container {  
         position: absolute;
-        top: 90px;
-    }
-    .h-input input[type="text"] {
-        height: 40px;
-        width: 400px;
-        font-size: 16px;
-    }
-    .h-input img {
-        width: 20px;
-    }
-    .nav-list{
+        left: 0;
+    } */
+    
+    .h-input {
         display: none;
     }
-    #open-menu-btn{
-        display: block;
+
+    .res-input {
         position: absolute;
+        top: 90px;
+        display: block;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        background:#004487;
+        padding: 10px 30px;
+    }
+
+
+    .res-input input[type="text"] {
+        height: 35px;
+    width: 300px;
+    border-radius: 50px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #b9b9b9;
+    padding: 0 15px;
+    }
+
+    .res-input img {
+        width: 22px;
+        position: absolute;
+        transform: translateX(-34PX);
+        margin-top: 8px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    #open-menu-btn {
+        display: block;
+        /* position: absolute; */
         right: 40px;
         top: 95px;
         font-size: 30px;
-        cursor: pointer ;
+        cursor: pointer;
     }
-    .nav-list{
+
+    .nav-list {
         position: fixed;
         width: 50%;
-        height: 100vh;
-        top: 400px;
-        left: 0;
+        height: 100vh !important;
+        top: 90px;
+        /* left: -100%; */
         text-align: center;
-        display: flex;
-        flex-direction: column; 
-    }       
-    .nav-list li a{
+        display: flex !important;
+        flex-direction: column;
+        gap: 38px !important;
+        background: blue;
+        transition: all ease .1s;
+    }
+
+    .nav-list li a {
         color: #000;
     }
 }
