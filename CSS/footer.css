@@ -393,3 +393,8 @@ body {
         display: none;
     }
 }
+@media screen and (max-width : 335px) {
+.news-letter-2 button{
+    margin-top: 7px;
+}
+}
