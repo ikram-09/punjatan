@@ -151,16 +151,19 @@ body {
     .contact-us-service-bar p {
         font-size: 12px;
     }
-    .contact-us-main{
+
+    .contact-us-main {
         flex-direction: column;
     }
-.contact-us-left{
-    width: 100% !important;
-}
-.contact-us-right{
-border-left: none;
-padding: 0;
-}
+
+    .contact-us-left {
+        width: 100% !important;
+    }
+
+    .contact-us-right {
+        border-left: none;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width : 940px) {
@@ -201,17 +204,21 @@ padding: 0;
         width: 100%;
     }
 }
+
 @media screen and (max-width : 540px) {
-    .contact-us-hero h1{
+    .contact-us-hero h1 {
         font-size: 40px;
     }
-    .contact-us-hero h3{
+
+    .contact-us-hero h3 {
         font-size: 20px;
     }
-    .contact-us-hero h6{
+
+    .contact-us-hero h6 {
         font-size: 20px;
     }
-    .contact-us-hero{
+
+    .contact-us-hero {
         padding: 4rem 1.5rem;
-        }
+    }
 }
