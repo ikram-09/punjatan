@@ -9,7 +9,7 @@ body {
 }
 
 .about-us {
-    padding: 3rem 30px;
+    padding: 3rem 20px;
     max-width: 1500px;
     margin: 0 auto;
 }
@@ -35,6 +35,8 @@ body {
     font-size: 25px;
     font-weight: bold;
     color: rgba(0, 68, 135, 1);
+    padding: 1rem 0 0 0;
+
 }
 
 .about-hero h6 {
